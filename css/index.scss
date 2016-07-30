@@ -1,0 +1,339 @@
+@import 'base';
+body{
+	font-size: 16px;
+	font-family: 苹方;
+	width:100%;height:100%;
+	background:#ECEBE9;
+}
+.header{
+	width:100%;height:1.45rem;
+	background:url(../images/faxian_03.png) repeat-x;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index: 10;
+	span{
+		padding-left:0.42rem;
+		width:auto;height:100%;
+		text-align:center;
+		line-height:1.45rem;
+		color:#fff;
+	}
+	.jiahao{
+		@include shangxia;
+		width:0.58rem;height:0.58rem;
+		background:url(../images/faxian_07.png) no-repeat;
+		background-size:100%;
+		right:0.73rem;
+	}
+	.sousuo{
+		@include shangxia;
+		width:0.58rem;height:0.58rem;
+		background:url(../images/faxian_05.png) no-repeat;
+		background-size:100%;
+		right:2.59rem;
+	}
+}
+.footer{
+	width:100%;height:1.61rem;
+	background:#FCFCFB;
+	position:fixed;
+	left:0;bottom:0;
+	border-top:0.02rem solid #D9D6D1;
+	z-index: 10;
+	ul{
+		width:100%;height:100%;
+		li{
+			width:25%;height:100%;
+			float:left;
+			position: relative;
+			a{
+				display: block;
+				width:1.41rem;height:1.41rem;
+				@include juzhong;
+				$lists:_29,_31,_33,_35;
+				@each $i in $lists{
+					.#{$i}{
+						background:url(../images/faxian#{$i}.png) no-repeat;
+						background-size:100%;
+					}
+				}
+				i{
+					@include zuoyou;
+					width:0.8rem;height:0.8rem;
+				}
+				span{
+					width:100%;height:0.61rem;
+					@include zuoyou;
+					bottom:0;
+					text-align:center;
+					line-height: 0.61rem;
+					color:#999590;
+				}
+				.lvse{
+					color:#00C334;
+				}
+				.lvtu3{
+					background:url(../images/wo_25.png) no-repeat;
+						background-size:100%;
+				}
+				.lvtu4{
+					background:url(../images/wo_27.png) no-repeat;
+						background-size:100%;
+				}
+				.lvtu1{
+					background:url(../images/weixin_19.png) no-repeat;
+						background-size:100%;
+				}
+			}
+		}
+	}
+}
+.content{
+	width:100%;height:100%;
+	position:fixed;
+	padding-top:1.45rem;
+	.faxian{
+		width:100%;height:auto;
+		li{
+			width:100%;height:auto;
+			margin-top:0.6rem;
+			background:#fff;
+			position:relative;
+			box-sizing:border-box;
+			padding:0 0.61rem;
+			div{
+				height:1.45rem;width:100%;
+				background:#fff;
+				box-sizing:border-box;
+				position:relative;
+				border-bottom:0.01rem solid #DBD8D3;
+				$list:_13,_16,_18,_20,_22,_24,_26;
+				@each $i in $list{
+					.#{$i}{
+						background:url(../images/faxian#{$i}.png) no-repeat;
+						background-size:100%;
+					}
+				}
+				i{
+					@include shangxia;
+					width:0.7rem;height:0.7rem;
+					
+				}
+				span{
+					width:auto;height:100%;
+					text-align:center;
+					line-height: 1.45rem;
+					padding-left:1.1rem;
+				}
+			}
+		}
+	}
+	.faxian li div:last-child{
+		border:0;
+	}
+
+	.wo{
+		width:100%;height:auto;
+		li{
+			width:100%;height:auto;
+			margin-top:0.6rem;
+			padding:0 0.42rem;
+			background: #fff;
+			box-sizing:border-box;
+			.da{
+				height:2.42rem;
+				._03{
+					width:1.92rem;
+				}
+				span{
+					line-height: 2.42rem;
+				}
+				._06{
+					float:right;
+					margin-right:0.75rem;
+				}
+			}
+
+			div{
+				width:100%;height:1.45rem;
+				background:#fff;				
+				box-sizing:border-box;
+				position:relative;
+				border-bottom:0.01rem solid #DBD8D3;
+
+				$list:_03,_06,_11,_14,_16,_18,_20,_22;
+				@each $i in $list{
+					.#{$i}{
+						background:url(../images/wo#{$i}.png) no-repeat;
+						background-size:100%;
+						background-position:center;
+					}
+				}
+				i{
+					
+					float:left;
+					width:0.8rem;height:100%;
+				}
+				span{
+					float:left;
+					width:auto;height:100%;
+					text-align:center;
+					line-height: 1.45rem;
+					padding-left:0.48rem;
+				}
+			}
+			
+		}
+	}
+	.wo li div:last-child{
+		border:0;
+	}
+
+	.weixin{
+		width:100%;height:auto;
+		li{
+			width:100%;height:auto;
+			border-bottom:0.02rem solid #E7E6E4;
+			div{
+				width:100%;height:1.92rem;
+				background:#fff;
+				padding-left:0.42rem;
+				box-sizing:border-box;
+				position:relative;
+				$list:_03,_06,_08,_10,_12,_14,_16;
+				@each $i in $list{
+					.#{$i}{
+						background:url(../images/weixin#{$i}.png) no-repeat;
+						background-position:center;
+						background-size:100%;
+					}
+				}
+				i{
+					float:left;
+					width:1.46rem;height:100%;
+					
+				}
+				div{
+					width:auto;height:1.46rem;
+					margin-top:0.18rem;
+					float:left;
+					padding-left:0.34rem;
+					text-align:left;
+					.span1{
+						display: block;
+						width:auto;height:50%;
+						line-height:0.96rem;
+						color:#545350;
+						font-weight: bold;
+					}
+					.span2{
+						width:auto;height:50%;
+						line-height:0.96rem;
+						font-size:14px;
+						color:#9A9791;
+					}
+				}
+				.span3{
+					width:auto;height:auto;
+					float:right;
+					font-size: 14px;
+					margin-top: 0.24rem;
+					text-align: center;
+					color:#9A9791;
+				}
+			}
+		}
+	}
+
+	.tongxunlu{
+		width:100%;height:auto;
+		li{
+			width:100%;height:auto;
+			// margin-top:0.68rem;
+			background:#fff;
+			position:relative;
+			box-sizing:border-box;			
+			.zimu{
+				@include zuoyou;
+				position:relative;
+				// left:0;right:0.41rem;
+				width:100%;height:0.68rem;
+				background:#ECEBE9;
+				color:#B4B0AA;
+				text-align: left;
+				line-height: 0.68rem;
+				padding-left: 0.41rem;
+				box-sizing:border-box;
+
+			}
+			.div{
+				width:100%;height:1.58rem;
+				background:#fff;
+				padding:0 0.72rem 0 0.41rem; 
+				box-sizing:border-box;
+
+				div{
+					height:1.58rem;width:100%;
+					background:#fff;
+					box-sizing:border-box;
+					position:relative;				
+					border-bottom:0.01rem solid #DBD8D3;
+					$list:_03,_06,_08,_10,_12,_14,_16,_18;
+					@each $i in $list{
+						.#{$i}{
+							background:url(../images/tongxunl#{$i}.png) no-repeat;
+							background-size:100%;
+							background-position:center;
+
+						}
+					}
+					i{
+						float:left;
+						width:1.1rem;height:100%;
+						
+					}
+					span{
+						width:auto;height:100%;
+						text-align:center;
+						line-height: 1.58rem;
+						padding-left:0.35rem;
+						font-size: 16px;
+						font-weight: bold;
+					}
+				}
+			}
+			
+		}
+	}
+	.tongxunlu li .div:last-child div{
+		border:0;
+	}
+	.tongxunlu li:first-child{
+		margin:0;
+	}
+	.zimus{
+		width:0.72rem;height:100%;
+		position:fixed;
+		top:0;right:0;
+		padding-top:1.45rem;
+		padding-bottom:1.61rem;
+		box-sizing:border-box;
+		// background:#fff;
+		li{
+			width:100%;height:0.53rem;
+			text-align: center;
+			line-height: 0.53rem;
+			color:#84817C;
+			margin-bottom:0.05rem;
+		}
+		.zimu1{
+			background:url(../images/zimu1.png) no-repeat;
+			background-size: 100%;
+		}
+		.zimu2{
+			background:url(../images/zimu2.png) no-repeat;
+			background-size: 100%;
+		}
+	}
+}

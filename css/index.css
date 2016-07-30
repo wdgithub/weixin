@@ -1,0 +1,459 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 71.11111px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 38.33333px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 38.14815px; } }
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 35.55556px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 34.72222px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 33.33333px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 29.62963px; } }
+
+body {
+  font-size: 16px;
+  font-family: 苹方;
+  width: 100%;
+  height: 100%;
+  background: #ECEBE9; }
+
+.header {
+  width: 100%;
+  height: 1.45rem;
+  background: url(../images/faxian_03.png) repeat-x;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  .header span {
+    padding-left: 0.42rem;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    line-height: 1.45rem;
+    color: #fff; }
+  .header .jiahao {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0.58rem;
+    height: 0.58rem;
+    background: url(../images/faxian_07.png) no-repeat;
+    background-size: 100%;
+    right: 0.73rem; }
+  .header .sousuo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0.58rem;
+    height: 0.58rem;
+    background: url(../images/faxian_05.png) no-repeat;
+    background-size: 100%;
+    right: 2.59rem; }
+
+.footer {
+  width: 100%;
+  height: 1.61rem;
+  background: #FCFCFB;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border-top: 0.02rem solid #D9D6D1;
+  z-index: 10; }
+  .footer ul {
+    width: 100%;
+    height: 100%; }
+    .footer ul li {
+      width: 25%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .footer ul li a {
+        display: block;
+        width: 1.41rem;
+        height: 1.41rem;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        margin: auto; }
+        .footer ul li a ._29 {
+          background: url(../images/faxian_29.png) no-repeat;
+          background-size: 100%; }
+        .footer ul li a ._31 {
+          background: url(../images/faxian_31.png) no-repeat;
+          background-size: 100%; }
+        .footer ul li a ._33 {
+          background: url(../images/faxian_33.png) no-repeat;
+          background-size: 100%; }
+        .footer ul li a ._35 {
+          background: url(../images/faxian_35.png) no-repeat;
+          background-size: 100%; }
+        .footer ul li a i {
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 0.8rem;
+          height: 0.8rem; }
+        .footer ul li a span {
+          width: 100%;
+          height: 0.61rem;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: auto;
+          bottom: 0;
+          text-align: center;
+          line-height: 0.61rem;
+          color: #999590; }
+        .footer ul li a .lvse {
+          color: #00C334; }
+        .footer ul li a .lvtu3 {
+          background: url(../images/wo_25.png) no-repeat;
+          background-size: 100%; }
+        .footer ul li a .lvtu4 {
+          background: url(../images/wo_27.png) no-repeat;
+          background-size: 100%; }
+        .footer ul li a .lvtu1 {
+          background: url(../images/weixin_19.png) no-repeat;
+          background-size: 100%; }
+
+.content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding-top: 1.45rem; }
+  .content .faxian {
+    width: 100%;
+    height: auto; }
+    .content .faxian li {
+      width: 100%;
+      height: auto;
+      margin-top: 0.6rem;
+      background: #fff;
+      position: relative;
+      box-sizing: border-box;
+      padding: 0 0.61rem; }
+      .content .faxian li div {
+        height: 1.45rem;
+        width: 100%;
+        background: #fff;
+        box-sizing: border-box;
+        position: relative;
+        border-bottom: 0.01rem solid #DBD8D3; }
+        .content .faxian li div ._13 {
+          background: url(../images/faxian_13.png) no-repeat;
+          background-size: 100%; }
+        .content .faxian li div ._16 {
+          background: url(../images/faxian_16.png) no-repeat;
+          background-size: 100%; }
+        .content .faxian li div ._18 {
+          background: url(../images/faxian_18.png) no-repeat;
+          background-size: 100%; }
+        .content .faxian li div ._20 {
+          background: url(../images/faxian_20.png) no-repeat;
+          background-size: 100%; }
+        .content .faxian li div ._22 {
+          background: url(../images/faxian_22.png) no-repeat;
+          background-size: 100%; }
+        .content .faxian li div ._24 {
+          background: url(../images/faxian_24.png) no-repeat;
+          background-size: 100%; }
+        .content .faxian li div ._26 {
+          background: url(../images/faxian_26.png) no-repeat;
+          background-size: 100%; }
+        .content .faxian li div i {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          width: 0.7rem;
+          height: 0.7rem; }
+        .content .faxian li div span {
+          width: auto;
+          height: 100%;
+          text-align: center;
+          line-height: 1.45rem;
+          padding-left: 1.1rem; }
+  .content .faxian li div:last-child {
+    border: 0; }
+  .content .wo {
+    width: 100%;
+    height: auto; }
+    .content .wo li {
+      width: 100%;
+      height: auto;
+      margin-top: 0.6rem;
+      padding: 0 0.42rem;
+      background: #fff;
+      box-sizing: border-box; }
+      .content .wo li .da {
+        height: 2.42rem; }
+        .content .wo li .da ._03 {
+          width: 1.92rem; }
+        .content .wo li .da span {
+          line-height: 2.42rem; }
+        .content .wo li .da ._06 {
+          float: right;
+          margin-right: 0.75rem; }
+      .content .wo li div {
+        width: 100%;
+        height: 1.45rem;
+        background: #fff;
+        box-sizing: border-box;
+        position: relative;
+        border-bottom: 0.01rem solid #DBD8D3; }
+        .content .wo li div ._03 {
+          background: url(../images/wo_03.png) no-repeat;
+          background-size: 100%;
+          background-position: center; }
+        .content .wo li div ._06 {
+          background: url(../images/wo_06.png) no-repeat;
+          background-size: 100%;
+          background-position: center; }
+        .content .wo li div ._11 {
+          background: url(../images/wo_11.png) no-repeat;
+          background-size: 100%;
+          background-position: center; }
+        .content .wo li div ._14 {
+          background: url(../images/wo_14.png) no-repeat;
+          background-size: 100%;
+          background-position: center; }
+        .content .wo li div ._16 {
+          background: url(../images/wo_16.png) no-repeat;
+          background-size: 100%;
+          background-position: center; }
+        .content .wo li div ._18 {
+          background: url(../images/wo_18.png) no-repeat;
+          background-size: 100%;
+          background-position: center; }
+        .content .wo li div ._20 {
+          background: url(../images/wo_20.png) no-repeat;
+          background-size: 100%;
+          background-position: center; }
+        .content .wo li div ._22 {
+          background: url(../images/wo_22.png) no-repeat;
+          background-size: 100%;
+          background-position: center; }
+        .content .wo li div i {
+          float: left;
+          width: 0.8rem;
+          height: 100%; }
+        .content .wo li div span {
+          float: left;
+          width: auto;
+          height: 100%;
+          text-align: center;
+          line-height: 1.45rem;
+          padding-left: 0.48rem; }
+  .content .wo li div:last-child {
+    border: 0; }
+  .content .weixin {
+    width: 100%;
+    height: auto; }
+    .content .weixin li {
+      width: 100%;
+      height: auto;
+      border-bottom: 0.02rem solid #E7E6E4; }
+      .content .weixin li div {
+        width: 100%;
+        height: 1.92rem;
+        background: #fff;
+        padding-left: 0.42rem;
+        box-sizing: border-box;
+        position: relative; }
+        .content .weixin li div ._03 {
+          background: url(../images/weixin_03.png) no-repeat;
+          background-position: center;
+          background-size: 100%; }
+        .content .weixin li div ._06 {
+          background: url(../images/weixin_06.png) no-repeat;
+          background-position: center;
+          background-size: 100%; }
+        .content .weixin li div ._08 {
+          background: url(../images/weixin_08.png) no-repeat;
+          background-position: center;
+          background-size: 100%; }
+        .content .weixin li div ._10 {
+          background: url(../images/weixin_10.png) no-repeat;
+          background-position: center;
+          background-size: 100%; }
+        .content .weixin li div ._12 {
+          background: url(../images/weixin_12.png) no-repeat;
+          background-position: center;
+          background-size: 100%; }
+        .content .weixin li div ._14 {
+          background: url(../images/weixin_14.png) no-repeat;
+          background-position: center;
+          background-size: 100%; }
+        .content .weixin li div ._16 {
+          background: url(../images/weixin_16.png) no-repeat;
+          background-position: center;
+          background-size: 100%; }
+        .content .weixin li div i {
+          float: left;
+          width: 1.46rem;
+          height: 100%; }
+        .content .weixin li div div {
+          width: auto;
+          height: 1.46rem;
+          margin-top: 0.18rem;
+          float: left;
+          padding-left: 0.34rem;
+          text-align: left; }
+          .content .weixin li div div .span1 {
+            display: block;
+            width: auto;
+            height: 50%;
+            line-height: 0.96rem;
+            color: #545350;
+            font-weight: bold; }
+          .content .weixin li div div .span2 {
+            width: auto;
+            height: 50%;
+            line-height: 0.96rem;
+            font-size: 14px;
+            color: #9A9791; }
+        .content .weixin li div .span3 {
+          width: auto;
+          height: auto;
+          float: right;
+          font-size: 14px;
+          margin-top: 0.24rem;
+          text-align: center;
+          color: #9A9791; }
+  .content .tongxunlu {
+    width: 100%;
+    height: auto; }
+    .content .tongxunlu li {
+      width: 100%;
+      height: auto;
+      background: #fff;
+      position: relative;
+      box-sizing: border-box; }
+      .content .tongxunlu li .zimu {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: relative;
+        width: 100%;
+        height: 0.68rem;
+        background: #ECEBE9;
+        color: #B4B0AA;
+        text-align: left;
+        line-height: 0.68rem;
+        padding-left: 0.41rem;
+        box-sizing: border-box; }
+      .content .tongxunlu li .div {
+        width: 100%;
+        height: 1.58rem;
+        background: #fff;
+        padding: 0 0.72rem 0 0.41rem;
+        box-sizing: border-box; }
+        .content .tongxunlu li .div div {
+          height: 1.58rem;
+          width: 100%;
+          background: #fff;
+          box-sizing: border-box;
+          position: relative;
+          border-bottom: 0.01rem solid #DBD8D3; }
+          .content .tongxunlu li .div div ._03 {
+            background: url(../images/tongxunl_03.png) no-repeat;
+            background-size: 100%;
+            background-position: center; }
+          .content .tongxunlu li .div div ._06 {
+            background: url(../images/tongxunl_06.png) no-repeat;
+            background-size: 100%;
+            background-position: center; }
+          .content .tongxunlu li .div div ._08 {
+            background: url(../images/tongxunl_08.png) no-repeat;
+            background-size: 100%;
+            background-position: center; }
+          .content .tongxunlu li .div div ._10 {
+            background: url(../images/tongxunl_10.png) no-repeat;
+            background-size: 100%;
+            background-position: center; }
+          .content .tongxunlu li .div div ._12 {
+            background: url(../images/tongxunl_12.png) no-repeat;
+            background-size: 100%;
+            background-position: center; }
+          .content .tongxunlu li .div div ._14 {
+            background: url(../images/tongxunl_14.png) no-repeat;
+            background-size: 100%;
+            background-position: center; }
+          .content .tongxunlu li .div div ._16 {
+            background: url(../images/tongxunl_16.png) no-repeat;
+            background-size: 100%;
+            background-position: center; }
+          .content .tongxunlu li .div div ._18 {
+            background: url(../images/tongxunl_18.png) no-repeat;
+            background-size: 100%;
+            background-position: center; }
+          .content .tongxunlu li .div div i {
+            float: left;
+            width: 1.1rem;
+            height: 100%; }
+          .content .tongxunlu li .div div span {
+            width: auto;
+            height: 100%;
+            text-align: center;
+            line-height: 1.58rem;
+            padding-left: 0.35rem;
+            font-size: 16px;
+            font-weight: bold; }
+  .content .tongxunlu li .div:last-child div {
+    border: 0; }
+  .content .tongxunlu li:first-child {
+    margin: 0; }
+  .content .zimus {
+    width: 0.72rem;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 1.45rem;
+    padding-bottom: 1.61rem;
+    box-sizing: border-box; }
+    .content .zimus li {
+      width: 100%;
+      height: 0.53rem;
+      text-align: center;
+      line-height: 0.53rem;
+      color: #84817C;
+      margin-bottom: 0.05rem; }
+    .content .zimus .zimu1 {
+      background: url(../images/zimu1.png) no-repeat;
+      background-size: 100%; }
+    .content .zimus .zimu2 {
+      background: url(../images/zimu2.png) no-repeat;
+      background-size: 100%; }

@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+
+}
+li{
+	list-style:none;
+}
+@mixin adapter($size){
+	$list:768px,414px,412px,384px,375px,360px,320px;
+	@each $i in $list{
+		@media screen and (max-width:#{$i}){
+			html{
+				font-size:$i/$size*100px;
+			}
+		}
+	}
+}
+
+@include adapter(1080px);
+
+@mixin shangxia{
+	position:absolute;
+	top:0;bottom:0;
+	margin:auto;
+}
+@mixin zuoyou{
+	position:absolute;
+	left:0;right:0;
+	margin:auto;
+}
+@mixin juzhong{
+	position:absolute;
+	left:0;bottom:0;top:0;right:0;
+	margin:auto;
+}
